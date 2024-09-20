@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'customFont';
+    src: url(./fonts/Classyvogueregular.ttf);
+    
+}
+
+@font-face {
+    font-family: 'numberFont';
+    src: url(./fonts/Impact\ Label.ttf);
+    
+}
+
+@font-face{
+    font-family: 'catFont';
+    src:url(./fonts/SparkyStonesRegular-BW6ld.ttf)
+}
+
+
+.number-font{
+    font-family: catFont;
+}
+
+
+.headone{
+    font-family: customFont;
+    padding-top: 50px;
+    margin-left: 24px;
+
+}
+
+
+
+.home-img{
+    filter: drop-shadow(2px 4px 8px hsla(0deg, 0%, 0%, 0.5));
+    margin-left: 40%;
+    transform: scaleX(-1);
+
+}
+
+.cat-img{
+    max-width: 25%;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(2px 8px 8px hsla(0deg, 0%, 0%, 0.5));
+}
+
+
+.hr{
+    width: 75%;
+    margin-left: 8%;
+    margin-top: 10px;
+    background-color: #cdd2cf;
+    /* margin-bottom: 50px; */
+}
+
+.cat-list{
+    font-family: catFont;
+}
+
+
+.scrolling-wrapper {
+    
+    margin-top: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  
+    .card {
+      display: inline-block;
+     
+  }
+    
+  }
+
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  
+    .card {
+      flex: 0 0 auto;
+    }
+  }
+
+  .scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+  .scrolling-wrapper {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+ .card{
+    padding-inline: 30px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    align-content: center;
+    background: white;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow: 0px 1px 28px #0000003b;
+    font-family: catFont;
+    color: #323832;
+    /* color: #96a89c; */
+    }
+
+
+    .menu-item{
+        overflow-wrap: anywhere;
+        font-family: customFont;
+
+    }
+
+
+    .placeorder{
+        float: right;
+        filter: drop-shadow(2px 8px 8px hsla(0deg, 0%, 0%, 0.5));
+
+    }
+    
+
+
+    .item-img{
+        filter: drop-shadow(2px 8px 8px hsla(0deg, 0%, 0%, 0.5));
+
+    }
+
+    .background-shape{
+        /* box-shadow: 50px 50px 50px black; */
+        /* border-radius: 500px; */
+        background-image: linear-gradient(white,#ebebeb,#d4d2d2,gray, black);
+        
+
+    }
+
+
+    .search-button{
+        /* box-shadow: -3px 0px 0px 3px white; */
+        box-shadow: 1px -3px 0px 13px white;
+        text-align: -webkit-center;
+        align-content: center;
+        
+
+    }
+
+    .search-icon{
+        text-align: w;
+    }
+
+
+    .admin-background-shape{
+        height: 200px;
+        width: 200px;
+        
+        background-color: #dde2df94; 
+        z-index: -2;
+        /* background-image: url('./assets/background.jpg'); */
+        /* filter: drop-shadow(156px -98px 0px #d2d7d4); */
+        
+    }
+
+    .cat-font{
+        font-family: catFont;
+    }
+
+    .custom-font{
+        font-family: customFont;
+    }
+
+
+    .category-image{
+        background-image: url(./assets/cat-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .food-image{
+        background-image: url(./assets/background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    /* .admin-item-image{
+        width: ;
+    } */
+
+
+    .added-image{
+        background-image: url(./assets/chicken1.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+    .custom-popup{
+        border-radius: 40px;
+        /* height: auto; */
+        /* width:auto; */
+    }
+
+
+    .admin-background{
+        background-image: url(./assets/background-main.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
