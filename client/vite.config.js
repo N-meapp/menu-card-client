@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   build: {
-    sourcemap: true,  // Ensure source maps are enabled
+    sourcemap: mode !== 'production',  // Enable source maps only in development
   },
   plugins: [react()],
-})
+}));
