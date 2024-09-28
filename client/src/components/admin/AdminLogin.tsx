@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import LoginContext from "../loginContext";
+import LoginContext from "../LoginContext";
 import Swal from 'sweetalert2'
 
 function AdminLogin() {

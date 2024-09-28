@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AdminLogin from "./admin/AdminLogin";
 import Dashboard from "./admin/Dashboard";
 import Home from "./user/Home";
-import LoginContext from "./loginContext";
+import LoginContext from "./LoginContext";
 import TableContext from "./TableContext";
 
 export default function RoutesPage(){
