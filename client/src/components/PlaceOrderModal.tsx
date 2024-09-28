@@ -5,12 +5,7 @@ import {
   Dialog,
   DialogBackdrop,
   DialogPanel,
-  DialogTitle,
 } from "@headlessui/react";
-import {
-  EllipsisHorizontalCircleIcon,
-  ExclamationTriangleIcon,
-} from "@heroicons/react/24/outline";
 import React from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
